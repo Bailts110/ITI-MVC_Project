@@ -1,0 +1,11 @@
+﻿@model Category
+
+<div class="card" style="width: 18rem;">
+    <div class="card-body">
+        <h6 class="card-subtitle mb-2 text-muted"> Id: @Model.Id</h6>
+        <h5 class="card-title">Name: @Model.Name</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Description: @Model.Description</h6>
+
+       <a asp-controller="Category" asp-action="index" class="btn btn-primary my-3">Back</a>
+    </div>
+</div>
